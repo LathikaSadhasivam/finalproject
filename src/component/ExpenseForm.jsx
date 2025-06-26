@@ -3,7 +3,7 @@ import { useState } from 'react'
 import "../index.css";
 
 
- function ExpenseForm(props) {
+ function Expenseform(props) {
 const[title,setTitle] = useState("")
 const [amount,SetAmount] = useState(0)
 
@@ -56,4 +56,4 @@ const [amount,SetAmount] = useState(0)
   )
 }
 
-export default ExpenseForm
+export default Expenseform

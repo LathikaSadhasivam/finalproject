@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import Expenceform from './Expenseform.jsx'
+import Expenceform from './Expenseform.jsx';
 import History from './History.jsx'
-import BalanceContainer from './BalanceContainer.jsx';
+import BalanceContainer from './BalanceContainer.jsx'; 
 function ExpenseContainer(){
   
 const [expense,setExpense]=useState([])
